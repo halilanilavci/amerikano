@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Amerikano Okey · Gizlilik Politikası</title>
-  <meta name="description" content="Amerikano Okey gizlilik politikası: oyun kişisel veri toplamaz; reklamlar Google AdMob ile, ödemeler Apple ve Google ile.">
+  <meta name="description" content="Amerikano Okey gizlilik politikası: oyun hesapsız oynanır; isteğe bağlı giriş, kullanıcı adı ve arkadaş listesi Google Firebase ile; reklamlar Google AdMob ile, ödemeler Apple ve Google ile.">
   <link rel="icon" href="icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -24,12 +24,25 @@
 
   <section>
     <h2>Kısaca</h2>
-    <p>Amerikano Okey'i Halil Anıl Avcı geliştirir. Oyun hesap açtırmaz; adını, e-postanı, rehberini ya da konumunu istemez ve geliştiriciye hiçbir kişisel veri göndermez. Ücretsiz sürümdeki reklamlar Google AdMob ile gösterilir; AdMob'un işlediği veriler aşağıda anlatılıyor. Ödemeler Apple ve Google tarafından alınır.</p>
+    <p>Amerikano Okey'i Halil Anıl Avcı geliştirir. Oyun hesap açmadan oynanır; rehberini ya da konumunu istemez. İstersen Apple veya Google ile giriş yapıp bir kullanıcı adı alabilir ve arkadaş ekleyebilirsin; bunun için tutulan veriler aşağıda anlatılıyor. Ücretsiz sürümdeki reklamlar Google AdMob ile gösterilir. Ödemeler Apple ve Google tarafından alınır.</p>
   </section>
 
   <section>
     <h2>Cihazında kalan bilgiler</h2>
-    <p>Altın bakiyen, aldığın temalar, seçtiğin salon, günlük hediye serin, görev ilerlemen, devam eden turnuva ve oyun ayarların yalnızca kendi cihazında saklanır. Bu bilgiler geliştiriciye ya da başka bir sunucuya gönderilmez ve uygulamayı sildiğinde silinir.</p>
+    <p>Altın bakiyen, aldığın temalar, seçtiğin salon, günlük hediye serin, görev ilerlemen, devam eden turnuva ve oyun ayarların yalnızca kendi cihazında saklanır. Bu bilgiler geliştiriciye ya da başka bir sunucuya gönderilmez ve uygulamayı sildiğinde silinir. Giriş yaptıysan yalnızca turnuva ve birincilik sayıların profiline yazılır.</p>
+  </section>
+
+  <section>
+    <h2>Giriş, kullanıcı adı ve arkadaşlar (isteğe bağlı)</h2>
+    <p>Giriş yapmayı seçersen hesabın Google Firebase (Firebase Authentication ve Cloud Firestore) üzerinde, Avrupa Birliği'ndeki sunucularda tutulur. Saklananlar:</p>
+    <ul>
+      <li>Hesap kimliği ve giriş yöntemi (Apple veya Google), giriş sağlayıcısının verdiği e-posta adresi. Apple ile girişte gerçek adresini gizleyebilirsin. Adını istemeyiz ve e-postanı başka bir amaçla kullanmayız.</li>
+      <li>Seçtiğin kullanıcı adı ve turnuva sonuçların (oynadığın turnuva ve birincilik sayısı)</li>
+      <li>Arkadaşların, gönderdiğin ve aldığın arkadaşlık istekleri, engellediğin oyuncular</li>
+      <li>Bir kullanıcı adını bildirirsen o bildirim</li>
+    </ul>
+    <p>Kullanıcı adın ve turnuva sonuçların giriş yapmış diğer oyuncular tarafından görülebilir. Arkadaş listeni ve engellediklerini yalnızca sen görürsün; bir arkadaşlık isteğini yalnızca gönderen ve alan görür. Oyunda mesajlaşma yoktur. Altının, satın aldıkların ve oyun ilerlemen yine yalnızca cihazında kalır.</p>
+    <p>Hesabını istediğin zaman oyunda Arkadaşlar &gt; Hesap &gt; Hesabı Sil ile silebilirsin. Silince kullanıcı adın, profilin, arkadaşlıkların, isteklerin ve engellediklerin hemen silinir, Apple ile girişin iptal edilir. Bildirimler incelendikten sonra silinir.</p>
   </section>
 
   <section>
@@ -59,7 +72,7 @@
 
   <section>
     <h2>Hakların</h2>
-    <p>Geliştirici kişisel veri tutmadığı için silinecek bir hesap ya da kayıt yoktur. Reklam verileriyle ilgili haklarını Google'a karşı kullanabilirsin. Reklam kimliğini iOS'ta Ayarlar &gt; Gizlilik ve Güvenlik &gt; Takip, Android'de Ayarlar &gt; Google &gt; Reklamlar bölümünden kapatabilir veya sıfırlayabilirsin. 6698 sayılı KVKK ve GDPR kapsamındaki soruların için aşağıdaki adrese yazabilirsin.</p>
+    <p>Giriş yapmadıysan geliştiricide senin hakkında hiçbir kayıt yoktur. Giriş yaptıysan hesabına bağlı verileri oyundan silebilir, bir kopyasını ya da düzeltilmesini aşağıdaki adresten isteyebilirsin. Reklam verileriyle ilgili haklarını Google'a karşı kullanabilirsin. Reklam kimliğini iOS'ta Ayarlar &gt; Gizlilik ve Güvenlik &gt; Takip, Android'de Ayarlar &gt; Google &gt; Reklamlar bölümünden kapatabilir veya sıfırlayabilirsin. 6698 sayılı KVKK ve GDPR kapsamındaki soruların için aşağıdaki adrese yazabilirsin.</p>
   </section>
 
   <section>
@@ -73,11 +86,15 @@
 
     <section>
       <h2>In short</h2>
-      <p>Amerikano Okey is developed by Halil Anıl Avcı. The game has no accounts; it never asks for your name, e-mail, contacts or location and sends no personal data to the developer. Ads in the free version are served by Google AdMob, described below. Payments are processed by Apple and Google.</p>
+      <p>Amerikano Okey is developed by Halil Anıl Avcı. The game is played without an account and never asks for your contacts or location. If you choose, you can sign in with Apple or Google to get a username and add friends; the data kept for that is described below. Ads in the free version are served by Google AdMob. Payments are processed by Apple and Google.</p>
     </section>
     <section>
       <h2>Data on your device</h2>
-      <p>Your coin balance, themes, selected salon, daily gift streak, mission progress, the running tournament and settings are stored only on your device. They are never sent to the developer or any server and are removed when you delete the app.</p>
+      <p>Your coin balance, themes, selected room, daily gift streak, mission progress, the running tournament and settings are stored only on your device. They are never sent to the developer or any server and are removed when you delete the app. If you signed in, only your tournament and win counts are written to your profile.</p>
+    </section>
+    <section>
+      <h2>Sign-in, username and friends (optional)</h2>
+      <p>If you sign in, your account is kept with Google Firebase (Firebase Authentication and Cloud Firestore) on servers in the European Union. It holds: the account ID and sign-in method (Apple or Google) and the e-mail address the provider passes on (with Apple you can hide your real address); we never ask for your name and use the e-mail for nothing else. It also holds the username you pick, your tournament results (tournaments played and won), your friends, the friend requests you sent and received, the players you blocked, and any username report you send. Your username and tournament results can be seen by other signed-in players; only you see your friends list and blocks, and a friend request is only seen by its sender and receiver. There is no messaging in the game. Your coins, purchases and progress still stay only on your device. You can delete your account at any time in the game under Friends &gt; Account &gt; Delete Account: your username, profile, friendships, requests and blocks are deleted right away and Sign in with Apple is revoked. Reports are deleted after review.</p>
     </section>
     <section>
       <h2>Purchases</h2>
@@ -93,7 +110,7 @@
     </section>
     <section>
       <h2>Your rights, changes and contact</h2>
-      <p>The developer keeps no personal data, so there is no account or record to delete. You can exercise your rights regarding ad data with Google and turn off or reset the advertising identifier in your device settings. If this policy changes, this page and the date above are updated. Contact: <a href="mailto:anilavci9@gmail.com">anilavci9@gmail.com</a></p>
+      <p>Without signing in, the developer keeps no record about you. If you signed in, you can delete your account data in the game, or ask for a copy or a correction at the address below. You can exercise your rights regarding ad data with Google and turn off or reset the advertising identifier in your device settings. If this policy changes, this page and the date above are updated. Contact: <a href="mailto:anilavci9@gmail.com">anilavci9@gmail.com</a></p>
     </section>
   </div>
 
